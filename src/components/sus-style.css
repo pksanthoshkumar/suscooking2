@@ -1,0 +1,211 @@
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: 10px;
+}
+
+h3[data-v-cd503454] {
+  margin: 40px 0 0;
+}
+
+a[data-v-cd503454] {
+  color: #42b983;
+}
+
+ul {
+  text-align: left;
+}
+
+h1[data-v-cd503454] {
+  color: ivory;
+  font-family: "Righteous", cursive;
+  font-size: 40px;
+  line-height: 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: left;
+  text-shadow: 0 1px 1px rgb(11, 12, 11);
+}
+
+.toolbar[data-v-cd503454] {
+  margin-bottom: 20px;
+  background: rgb(3, 3, 3);
+  padding: 15px;
+}
+
+.border {
+  border-color: grey;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.gutter {
+  margin-bottom: 30px;
+}
+
+
+/* -------------------------------------------
+Added for Sus Cooking.
+---------------------------------------------- */
+.navbar-custom {
+  background-color:white ;
+  color:green;
+  border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+  color:CornflowerBlue  ;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+  color: white;
+  background-color:transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+  text-decoration: none;
+  background-color: Gainsboro ;
+}
+
+.navbar-custom .navbar-brand {
+  color:Gainsboro ;
+}
+.navbar-custom .navbar-toggle {
+  background-color:Gainsboro  ;
+}
+.navbar-custom .icon-bar {
+  background-color:black ;
+}
+/*************************************/
+
+
+
+.columnRecipeThumpNail {
+  float: left;
+  /* width: 25%; */
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
+}
+.rowRecipeThumpNail:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.singlePageRecipe {
+/* max-width: 50em; */
+  margin: 1em auto;
+  list-style-type: none;
+  text-align: left; 
+  max-width: 70%;
+  font-size: 90%;
+}
+
+.singlePageRecipe img {
+  /* max-width: 30em; */
+  max-width: 100%;
+}
+
+/* .row {
+    display: flex;
+} */
+.columnMainRecipe {
+  float: left;
+  width: 70%;
+}
+.columnRecipeCards {
+  float: left;
+  width: 30%;
+} 
+
+#recipeMenu {
+  padding-left: 10px;
+  margin-left: 10px;
+  float:left;
+}
+
+#recipeMenu .breadcrumb {
+  background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+    div.columnRecipeCards {
+      display: none;
+    }
+
+    .singlePageRecipe {
+      /* max-width: 50em; */
+        margin: 1em auto;
+        list-style-type: none;
+        text-align: left; 
+        max-width: 100%;
+        font-size: 90%;
+      }
+
+      .columnMainRecipe {
+        float: left;
+        width: 100%;
+      }
+
+    .columnRecipeThumpNail {
+      float: left;
+      /* width: 25%; */
+      padding: 10px;
+      height: 100px; /* Should be removed. Only for demonstration */
+      width: 100px;
+    }
+
+    .rowRecipeThumpNail:after{
+      font-size: 50%;
+      font-weight: normal;
+    }
+
+    .rowRecipeThumpNail{
+      font-size: 50%;
+      font-weight: normal;
+    }
+
+    #recipeMenu {
+      padding-left: 0px;
+      margin-left: 0px;
+      font-size: 50%;
+    }
+}
+
+/* ------------------------------------
+  for Read more Read Less
+---------------------------------------*/
+#summary {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#summary p.collapse:not(.show) {
+    height: 40px !important;
+    overflow: hidden;
+  
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+}
+
+#summary p.collapsing {
+    min-height: 40px !important;
+}
+
+#summary a.collapsed:after  {
+    content: '+ Read More';
+}
+
+#summary a:not(.collapsed):after {
+    content: '- Read Less';
+}
