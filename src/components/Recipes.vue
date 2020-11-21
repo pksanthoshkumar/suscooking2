@@ -15,26 +15,175 @@
                           </button>
 
                         </div>
-                          <div class="collapse navbar-collapse" id="myNavbar">
+
+                      
+
+                          <!--div class="collapse navbar-collapse" id="myNavbar"-->
+                          <div class="collapse navbar-collapse" id="sus-menu-drop-down">
                             <ul class="nav navbar-nav">
-                              <li><a class="page-scroll" href="#recipeFilter" @click="getRecipeType('#veg#');">Veg</a></li>
+                              <!-- <li><a class="page-scroll" href="#recipeFilter" @click="getRecipeType('#veg#');">Veg</a></li> -->
+                              <li>
+                                <div class="dropdown"> 
+                                      <button class="page-scroll"> 
+                                          Vegitarian 
+                                      </button> 
+                                        
+                                      <div class="dropdown-content"> 
+
+                                        <li v-for="(aReceipe, i) in getVegRecipes()" :key="i"  class= "card-item" >
+                                            <div  v-bind:id="getRecipeIndex ()"  >
+
+                                                <a href="#" :name=aReceipe.recipeImage @click="redirectURL(`/${aReceipe.recipeImage}`);">
+                                                    <figure class="menucard">
+                                                        <img class="lazyload" :src="require(`/${aReceipe.recipeImage}`)">
+                                                        <figcaption class="menuCaption">
+                                                            <h6 class="menu-caption-title" :style = "getFontColor16Px()" >{{aReceipe.recipeName}}</h6>
+                                                            <!-- <p v-html="`${aReceipe.recipeDescShort}`"></p> -->
+                                                            
+                                                        </figcaption>
+                                                    </figure>
+                                                </a> 
+                                            </div>
+                                        </li>
+
+
+                                      </div> 
+                                </div> 
+                              </li>
                             </ul>
+
+
                             <ul class="nav navbar-nav">
-                              <li><a class="page-scroll" href="#recipeFilter" @click="getRecipeType('#non-veg#');">Non. Veg</a></li>
+                              <!-- <li><a class="page-scroll" href="#recipeFilter" @click="getRecipeType('#non-veg#');">Non. Veg</a></li> -->
+                              <li>
+                                <div class="dropdown"> 
+                                      <button class="page-scroll"> 
+                                          Non. Veg 
+                                      </button> 
+                                        
+                                      <div class="dropdown-content"> 
+
+                                        <li v-for="(aReceipe, i) in getNonVegRecipes()" :key="i"  class= "card-item" >
+                                            <div  v-bind:id="getRecipeIndex ()"  >
+
+                                                <a href="#" :name=aReceipe.recipeImage @click="redirectURL(`/${aReceipe.recipeImage}`);">
+                                                    <figure class="menucard">
+                                                        <img class="lazyload" :src="require(`/${aReceipe.recipeImage}`)">
+                                                        <figcaption class="menuCaption">
+                                                            <h6 class="menu-caption-title" :style = "getFontColor16Px()" >{{aReceipe.recipeName}}</h6>
+                                                            <!-- <p v-html="`${aReceipe.recipeDescShort}`"></p> -->
+                                                            
+                                                        </figcaption>
+                                                    </figure>
+                                                </a> 
+                                            </div>
+                                        </li>
+                                      </div> 
+                                </div> 
+                              </li>                              
                             </ul>
+
+
                             <ul class="nav navbar-nav">
-                              <li><a class="page-scroll" href="#recipeFilter" @click="getRecipeType('#starter#');">Starters</a></li>
+                              <!-- <li><a class="page-scroll" href="#recipeFilter" @click="getRecipeType('#starter#');">Starters</a></li> -->
+
+                              <li>
+                                <div class="dropdown"> 
+                                      <button class="page-scroll"> 
+                                          Starters 
+                                      </button> 
+                                        
+                                      <div class="dropdown-content"> 
+
+                                        <li v-for="(aReceipe, i) in getStartRecipes()" :key="i"  class= "card-item" >
+                                            <div  v-bind:id="getRecipeIndex ()"  >
+
+                                                <a href="#" :name=aReceipe.recipeImage @click="redirectURL(`/${aReceipe.recipeImage}`);">
+                                                    <figure class="menucard">
+                                                        <img class="lazyload" :src="require(`/${aReceipe.recipeImage}`)">
+                                                        <figcaption class="menuCaption">
+                                                            <h6 class="menu-caption-title" :style = "getFontColor16Px()" >{{aReceipe.recipeName}}</h6>
+                                                        </figcaption>
+                                                    </figure>
+                                                </a> 
+                                            </div>
+                                        </li>
+                                      </div> 
+                                </div> 
+                              </li>  
                             </ul>
+
+
                             <ul class="nav navbar-nav">
-                              <li><a class="page-scroll" href="#recipeFilter" @click="getRecipeType('#Desserts#');">Desserts</a></li>
+                              <!-- <li><a class="page-scroll" href="#recipeFilter" @click="getRecipeType('#Desserts#');">Desserts</a></li> -->
+                              <li>
+                                <div class="dropdown"> 
+                                      <button class="page-scroll"> 
+                                          Desserts 
+                                      </button> 
+                                        
+                                      <div class="dropdown-content"> 
+
+                                        <li v-for="(aReceipe, i) in getDesertRecipes()" :key="i"  class= "card-item" >
+                                            <div  v-bind:id="getRecipeIndex ()"  >
+
+                                                <a href="#" :name=aReceipe.recipeImage @click="redirectURL(`/${aReceipe.recipeImage}`);">
+                                                    <figure class="menucard">
+                                                        <img class="lazyload" :src="require(`/${aReceipe.recipeImage}`)">
+                                                        <figcaption class="menuCaption">
+                                                            <h6 class="menu-caption-title" :style = "getFontColor16Px()" >{{aReceipe.recipeName}}</h6>
+                                                        </figcaption>
+                                                    </figure>
+                                                </a> 
+                                            </div>
+                                        </li>
+                                      </div> 
+                                </div> 
+                              </li> 
+
                             </ul>
+
+
                             <ul class="nav navbar-nav">
-                              <li><a class="page-scroll" href="#recipeFilter" @click="getRecipeType('#drinks#');">Drinks</a></li>
+                              <!-- <li><a class="page-scroll" href="#recipeFilter" @click="getRecipeType('#drinks#');">Drinks</a></li> -->
+                              <li>
+                                <div class="dropdown"> 
+                                      <button class="page-scroll"> 
+                                          Drinks 
+                                      </button> 
+                                        
+                                      <div class="dropdown-content"> 
+
+                                        <li v-for="(aReceipe, i) in getDrinksRecipes()" :key="i"  class= "card-item" >
+                                            <div  v-bind:id="getRecipeIndex ()"  >
+
+                                                <a href="#" :name=aReceipe.recipeImage @click="redirectURL(`/${aReceipe.recipeImage}`);">
+                                                    <figure class="menucard">
+                                                        <img class="lazyload" :src="require(`/${aReceipe.recipeImage}`)">
+                                                        <figcaption class="menuCaption">
+                                                            <h6 class="menu-caption-title" :style = "getFontColor16Px()" >{{aReceipe.recipeName}}</h6>
+                                                        </figcaption>
+                                                    </figure>
+                                                </a> 
+                                            </div>
+                                        </li>
+                                      </div> 
+                                </div> 
+                              </li>                               
                             </ul>
-                            <ul class="nav navbar-nav">
-                              <li><a class="page-scroll" href="About.html" >About</a></li>
+
+
+                            <ul class="nav navbar-nav" >
+                              <!-- <li><a class="page-scroll" href="About.html" >About</a></li> -->
+                              <a class="page-scroll" href="About.html" >
+                                <button class="page-scroll"> 
+                                    About 
+                                </button>                               
+                              </a>
                             </ul>      
                           </div>
+                         
+
                       </div>
                     </nav>
 
@@ -48,48 +197,34 @@
                         </tr>
                     </table>
                         <!-- Your Recipe Title starts  here  -->
-                                     <h1 style="text-align: center;"><span style="color: #ff9900;"><strong>Mango Cheesecake</strong></span></h1>
-                                    <p><span style="color: #ff9900;"><strong><img src="builds/MangoCheesecake.jpg" alt="" /></strong></span></p>
-                                
-                                    <span style="color: #0000ff;"><strong>Ingredients&nbsp;</strong><strong>For crust:</strong></span>
-                                    <ul>
-                                    <li>Graham crackers 10 &ndash; 12</li>
-                                    <li>Brown sugar 2 tsp</li>
-                                    <li>Butter melted 4 tbsp</li>
-                                    </ul>
-                                    <span style="color: #0000ff;"><strong>For cake batter:</strong></span>
-                                    <ul>
-                                    <li>Philadelphia cream cheese 2 pack (8 oz each)</li>
-                                    <li>Butter 4 tbsp</li>
-                                    <li>Sour cream 4 tbsp</li>
-                                    <li>White sugar 4 tbsp</li>
-                                    <li>All-purpose flour 2 tbsp</li>
-                                    <li>Corn starch 2 tbsp</li>
-                                    <li>Vanilla essence 1 or 2 tsp</li>
-                                    <li>Eggs 2</li>
-                                    </ul>
-                                    <span style="color: #0000ff;"><strong>For cake topping:</strong></span>
-                                    <ul>
-                                    <li>Mango pulp 1 cup</li>
-                                    <li>Sour cream 2 tbsp</li>
-                                    <li>White sugar 1tbsp</li>
-                                    </ul>
 
-                                    <span style="color: #0000ff;"><strong>Method:</strong></span>
-                                    <p><span style="color: #0000ff;"><strong>The Crust:</strong></span><br />Place 10 - 12 graham crackers in a Ziploc and crush it. Transfer it to a bowl. Add brown sugar and melted butter. Mix well till crackers are moist.<br />Line the bottom of a 7" Springform cake pan with parchment paper and grease with butter.<br />Spread and press the crushed cracker mixture on the bottom and 2/3 of the way up the sides of the pan. Place the pan with cracker mixture in freezer for 20 minutes for the crust to get set.</p>
-                                    <span style="color: #0000ff;"><strong>The Batter:</strong></span>Bring the cream cheese and butter to room temperature. In an electric mixer, beat cream cheese, butter, sour cream, white sugar, all-purpose flour, corn starch and vanilla. Finally add the eggs and beat again.<br/>
-                                    <span style="color: #0000ff;"><strong>The cake:</strong></span>
-                                    <span style="color: #993300;"><strong>Instant Pot Method:</strong></span>Remove cake pan with crust from freezer and pour cream cheese batter into it. Spread it evenly with a spatula.
-                                    <p>In the instant pot, pour 1 cup water and place the trivet. Gently lower the cake pan and place it on the trivet. Close lid with vent on seal position. Use cake option and bake for about 25 minutes.
-                                    
-                                    <!--
-                                    When done, use quick release, open lid, take out the cake pan and towel off any moisture formed on top of the cake. Let it cool.</P>
-                                    <span style="color: #993300;"><strong>Oven Method:</strong></span>
-                                    <p>Preheat oven to 450&deg;F. Place a large oven safe pan filled with 1/2 inch water in oven. Place Cheesecake pan into the preheated water bath. Bake for 15 minutes; turn oven to 350&deg;F and bake until top of Cheesecake turns golden, about 50 minutes. Remove cake and let it cool.</p>
-                                    <span style="color: #0000ff;"><strong>Topping:</strong></span>
-                                    <p>In a bowl, whisk mango pulp, sour cream and white sugar. When the cake cools down, slowly spread the mango and sour cream mixture on the cake. Refrigerate the cake for 4 to 6 hours.</br>
-                                    Serve with whipped cream and enjoy!!
-                                    -->
+                        <div class="kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x c1et5uql ii04i59q">
+
+                            <div dir="auto">&nbsp;</div>
+                            <div dir="auto">&nbsp;</div>
+                            <div dir="auto">&nbsp;<a href="https://www.amazon.com/dp/B08L1XNVPZ/ref=rdr_kindle_ext_tmb"><h2 dir="auto"><img src="http://suscooking.com/book.png" alt="" /></h2></a></div>
+                            <div dir="auto">&nbsp;</div>
+
+
+                            <div dir="auto">&nbsp;</div>
+                            <div dir="auto">For 3 years now you all have been followers of&nbsp;<a class="oajrlxb2 g5ia77u1 qu0x051f esr5mh6w e9989ue4 r7d6kgcz rq0escxv nhd2j8a9 nc684nl6 p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso i1ao9s8h esuyzwwr f1sip0of lzcic4wl py34i1dx gpro0wi8" tabindex="0" role="link" href="http://suscooking.com/?fbclid=IwAR1vzIpB0lcSoL0eqLBtCI84QngF7dEdW-qT6qsAvwopNV1MKJBZsBr30uk" target="_blank" rel="nofollow noopener">suscooking.com.</a> Well, your unstinting support, your appreciation and encouragement have persuaded me to take my interest in food and cooking to the next level.</div>
+                            <div dir="auto">&nbsp;</div>
+                            <div dir="auto">I am delighted to share with my readers that I have now published my first cookbook!!</div>
+                            <div dir="auto"><span style="color: #ff6600;">"An Ounce of Flavor - A Culinary Journey Across the Oceans"</span>. It is now available on Amazon as a Kindle version and paperback. This book is literally the story of my journey across the seas, told in recipes - my travels and experiences in different countries and cities and towns. Of family and heritage and friendships.</div>
+                            <div dir="auto">&nbsp;</div>
+                            </div>
+                            <div class="o9v6fnle cxmmr5t8 oygrvhab hcukyx3x c1et5uql ii04i59q">
+                            <div dir="auto">I would be honored if each of you would buy a copy of the book. Share my journey and enjoy the beautiful recipes that I have tried and tested and curated with care for you.</div>
+                            </div>
+                            <div class="o9v6fnle cxmmr5t8 oygrvhab hcukyx3x c1et5uql ii04i59q">
+                            <div dir="auto">And once you've read it, I would greatly appreciate it if you could take few minutes of your time to please review and rate the book. Please share this post or amazon link with your networks and help spread the world. Join me for An Ounce of Flavor!!</div>
+                            <div dir="auto">&nbsp;</div>
+                            </div>
+
+                            <!--div dir="auto">&nbsp;<a href="https://www.amazon.com/dp/B08L1XNVPZ/ref=rdr_kindle_ext_tmb"><h2 dir="auto"><img src="Amazon.png" alt="" /></h2></a></div-->
+
+
+                        <!-- Your Recipe content ends  here  -->
                                     <table width="25%">
                                         <tr>
                                         <td><a title="Facebook" href="https://www.facebook.com/suscooking/"><img src="./fb.png" style="width:40px;height:40px;" alt="" /></a></td>
@@ -132,12 +267,9 @@
                 </div>  
             </div>              <!-- end of row -->   
 
-            <div class="rowRecipeThumpNail" id="recipeFilter" >
-                <!-- <div class= "card-item" >
-                    <iframe src='//rcm-na.amazon-adsystem.com/e/cm?o=1&p=12&l=ez&f=ifr&linkID=735d9c463328be15715dca1ee948aea3&t=suscooking-20&tracking_id=suscooking-20' width='300' height='250' scrolling='no' border='0' marginwidth='0' style='border:none;' frameborder='0'></iframe>
-                </div>
-                 -->
-        
+          
+            <!--div class="rowRecipeThumpNail" id="recipeFilter" >
+    
                 <div v-for="(aReceipe, i) in getRecipesShuffled(allRecipes, 20)" :key="i"  class= "card-item" >
                     <div class="columnRecipeThumpNail">
                         <a href="#" @click="redirectURL(`/${aReceipe.recipeImage}`);">
@@ -148,7 +280,7 @@
                         </a> 
                     </div>
                 </div>
-            </div>
+            </div-->
         </div>          <!-- panel-body -->
 
       <!-- Start Footer bottom Area -->
@@ -177,6 +309,7 @@
 
 var recipeCount = 0;
 import recipeList from "./recipes.json";
+// import DropdownMenu from '@innologica/vue-dropdown-menu';
 
 export default {
   name: "Recipes",
@@ -231,17 +364,25 @@ export default {
       return anArray;
     },
     getLastFewRecipes: function(allMyRecipes, maxNum) {
-      var myNewRecipes = recipeList.reverse();
-      return myNewRecipes.slice(0, maxNum);
+      return recipeList.slice(0, maxNum);
     },
+    getVegRecipes: function() {
+      return recipeList.reverse().filter (r=> r.keyWords === '#veg#');
+    },
+    getNonVegRecipes: function() {
+      return recipeList.reverse().filter (r=> r.keyWords === '#non-veg#');
+    },
+    getStartRecipes: function() {
+      return recipeList.reverse().filter (r=> r.keyWords === '#starter#');
+    },
+    getDesertRecipes: function() {
+      return recipeList.reverse().filter (r=> r.keyWords === '#Desserts#');
+    },
+    getDrinksRecipes: function() {
+      return recipeList.reverse().filter (r=> r.keyWords === '#drinks#');
+    },        
     getRecipesShuffled: function(allMyRecipes, maxNum) {
-      if (allMyRecipes.length < 4) return allMyRecipes;
-
-      if (maxNum == "ALL") {
-        maxNum = allMyRecipes.length;
-      }
-
-      var recipeScrampleArray = this.shuffleArray (allMyRecipes);
+      var recipeScrampleArray = this.shuffleArray (recipeList);
 
       return recipeScrampleArray.slice(0, maxNum);
     },
@@ -277,7 +418,25 @@ export default {
       //console.log("color: " + colorArray[random]);
       return "font-weight: bold;font-size: 24px; color: " + random;
 
-    }, getRecipeIndex : function () {
+    },
+     getFontColor16Px: function() {
+      var colorArray = [
+        "#42b983",
+        "#0000FF",
+        "#800000",
+        "#d84194",
+        "#4897cc",
+        "#53cc48",
+        "#dda652",
+        "#db6f31",
+        "#7951e6"
+      ];
+      var random = colorArray[Math.floor(Math.random() * colorArray.length)];
+      //console.log("color: " + colorArray[random]);
+      return "font-weight: bold;font-size: 16px; color: " + random;
+
+    }
+    , getRecipeIndex : function () {
       recipeCount = recipeCount + 1;
       return "recipe-" + recipeCount;
     }

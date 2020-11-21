@@ -209,6 +209,19 @@ Cards:
 	background: hsl(0, 0%, 97%);
 }
 
+.menuCaption {
+	padding: 0.5em;
+	font-size: 90%;
+	color: black;
+}
+
+.menu-caption-title {
+	margin: 0.5em;
+	font-size: .5em;
+	line-height: 1em;
+	text-align: left;
+}
+
 /*--------------------------------------------------------------
 CSS Grid layout for wider screens, when browser supports grid:
 --------------------------------------------------------------*/
@@ -226,6 +239,14 @@ CSS Grid layout for wider screens, when browser supports grid:
 			padding: .5em;
 			display: grid;
 			grid-template-columns: 8em auto;
+		}
+
+		.menucard {
+			margin: 0;
+			padding: 0;
+			display: grid;
+			grid-template-columns: 8em auto;
+			/* background-color: pink;  */
 		}
 
 		.cards a:focus,

@@ -219,6 +219,7 @@ CSS Grid layout for wider screens, when browser supports grid:
 		.cards {
 			margin: 0 auto;
 			padding: 1em;
+			/*background-color: red;*/
 		}
 
 		.card {
@@ -226,6 +227,7 @@ CSS Grid layout for wider screens, when browser supports grid:
 			padding: .5em;
 			display: grid;
 			grid-template-columns: 8em auto;
+			/*background-color: Chartreuse; */
 		}
 
 		.cards a:focus,
@@ -233,6 +235,7 @@ CSS Grid layout for wider screens, when browser supports grid:
 			outline: 1px solid hsl(0, 0%, 80%);
 		}
 	}
+
 
 	@media screen and (min-width: 60em) {
 
@@ -243,7 +246,7 @@ CSS Grid layout for wider screens, when browser supports grid:
 			grid-template-columns: repeat(1, 25em);
 			grid-gap: 1em;
 			justify-content: center;
-			/* background-color: pink;  */
+			/*background-color: Aquamarine; */
 			
 		}
 
@@ -254,15 +257,18 @@ CSS Grid layout for wider screens, when browser supports grid:
 			grid-template-columns: repeat(1, 35em);
 			grid-gap: 1em;
 			justify-content: center;
+			/*background-color: Beige;*/
 		}
 
 		.card {
 			margin: 0;
-			/* background-color: lightskyblue; */
+			/*background-color: BlueViolet; */
+			/*background-color: CornflowerBlue; */
 		}
 
 		.double {
 			grid-row: span 3;
+			/*background-color: brown;*/
 		}
 
 		.double .card {
