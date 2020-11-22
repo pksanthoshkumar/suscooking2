@@ -1,0 +1,291 @@
+[
+  
+  {
+    "recipeId": "1091",
+    "recipeName": "Coconut Prawn",
+    "recipeDescShort": "Coconut prawn is a Kerala style dry dish with prawns coated in a spicy, ground coconut mixture. It is a great combination with rice. Try this yummy recipe which doesn’t take long to put together!<font color='blue'><b>more...</b></font>",
+    "recipeImage": "CoconutPrawn.jpg",
+    "keyWords": "#non-Veg#", 
+    "relatedRecipes" : "SpicyShrimp, StirFryShrimp, CoconutShrimp"
+  }
+  ,
+  {
+    "recipeId": "1092",
+    "recipeName": "Baked Salmon",
+    "recipeDescShort": "Salmon is a mighty powerful superfood, packed with Omega-3s and proteins. Undoubtedly, salmon is tasty, satisfying and versatile. Try this easy and healthy recipe to satisfy a health-conscious family!<font color='blue'><b>more...</b></font>",
+    "recipeImage": "BakedSalmon.jpg",
+    "keyWords": "#non-Veg#", 
+    "relatedRecipes" : "SalmonAsparagus"
+  }
+  ,
+  {
+    "recipeId": "1093",
+    "recipeName": " Kerala Erissery (Pumpkin with Black Eyed Beans)",
+    "recipeDescShort": "Erissery is a Kerala style curry made with yellow pumpkin and black-eyed beans or small red beans. It is traditionally part of Onam lunch (sadya) or other festive lunches. Served with rice, it is delicious and nutritious! Both Instant pot method and regular methods have been included. Give it a try!<font color='blue'><b>more...</b></font>",
+    "recipeImage": "Erissery.jpg",
+    "keyWords": "#Veg#", 
+    "relatedRecipes" : "KaleLentils"
+  }
+  ,
+  {
+    "recipeId": "1094",
+    "recipeName": " Spiced Lamb Masala",
+    "recipeDescShort": "Indian lamb or mutton curry is a classic spicy dish in which the meat is marinated and cooked with aromatic spices and herbs. Try this flavorful recipe and devour it with nan bread or rice!!!<font color='blue'><b>more...</b></font>",
+    "recipeImage": "SpicedLambMasala.jpg",
+    "keyWords": "#non-Veg#", 
+    "relatedRecipes" : "MuttonBiriyani, MethiMutton, InstantPotMalabarMuttonCurry"
+  }
+  ,
+  {
+    "recipeId": "1095",
+    "recipeName": " Chili Chicken",
+    "recipeDescShort": "I was in a mood for Chinese food midweek and it was too cold and windy to get out! so I grabbed whatever ingredients I had at hand and whipped up a Chinese style chili chicken and it was so yum!!! Try this recipe and please your family and watch them say “Better Than Take-Out”!!<font color='blue'><b>more...</b></font>",
+    "recipeImage": "ChiliChicken.jpg",
+    "keyWords": "#non-Veg#", 
+    "relatedRecipes" : "ButterChicken, ChineseStirFry, PepperChicken"
+  }
+  ,
+  {
+    "recipeId": "1096",
+    "recipeName": " Instant Pot Baby Potatoes",
+    "recipeDescShort": "Stir fried baby potatoes in Instant pot is one of the easiest and fastest dishes. The instant pot pressure cooking method makes it even yummier!!If you have a bag of potatoes handy, you can get it ready by the time your kids set the table for dinner!! <font color='blue'><b>more...</b></font>",
+    "recipeImage": "BabyPotatoes.jpg",
+    "keyWords": "#Veg#", 
+    "relatedRecipes" : "BakedSweetPotatoWedges"
+  }
+  ,
+  {
+    "recipeId": "1097",
+    "recipeName": " Instant Pot Mutton Sukka ",
+    "recipeDescShort": "I made Mutton sukka for a thanksgiving potluck dinner at a cousin’s place last week. Every family attending brought dishes belonging to the Indian region where they came from. Most of them were from Kerala and were bringing Kerala regional dishes. I decided to make a dish from Mangalorean cusine because half of me belongs to there. Mutton sukka is mostly found in the Mangalorean menu for feasts, wedding dinners and other special occasions! Here, goat meat is cooked in southern spices and aromatic roasted and ground coconut mixture. Try out this yummy recipe for your next party and impress your friends! <font color='blue'><b>more...</b></font>",
+    "recipeImage": "MuttonSukka.jpg",
+    "keyWords": "#non-Veg#", 
+    "relatedRecipes" : "MethiMutton, MuttonBiriyani, InstantPotMalabarMuttonCurry"
+  }
+  ,
+  {
+    "recipeId": "1098",
+    "recipeName": " Bagara Baingan ",
+    "recipeDescShort": "Sometimes if you have vegetarian guests coming over and you are at loss of ideas about what to cook, here is a simple but delicious dish which goes well with Roti, Naan or Rice! Try it and watch it turn out into a crowd pleaser!<font color='blue'><b>more...</b></font>",
+    "recipeImage": "BagaraBaingan.jpg",
+    "keyWords": "#Veg#", 
+    "relatedRecipes" : "Erissery"
+  }
+  ,
+  {
+    "recipeId": "1099",
+    "recipeName": " Chinese Pineapple Cashew Chicken ",
+    "recipeDescShort": "Who doesn’t like yummy Chinese food!! Try this delicious recipe of Chinese chicken with pineapple and crunchy cashew nuts!!! It just takes under 30 minutes to whip this up!<font color='blue'><b>more...</b></font>",
+    "recipeImage": "ChinesePineappleCashewChicken.jpg",
+    "keyWords": "#non-Veg#", 
+    "relatedRecipes" : "ChiliChicken, ChineseStirFry"
+  }
+  ,
+  {
+    "recipeId": "1100",
+    "recipeName": " Air Fryer Murukku/Chakli ",
+    "recipeDescShort": "Murukku is a crunchy, savory South Indian snack made of rice, lentil flour and spices. It is usually deep fried in oil. I have made this in                   the air fryer. Deep fry method is also included. Try this recipe, make murukku at home and you will stop buying them from stores which are                      loaded with salt! <font color='blue'><b>more...</b></font>",
+    "recipeImage": "AirfryerMurukku.jpg",
+    "keyWords": "#Veg#", 
+    "relatedRecipes" : "Cutlet, EggPuffs"
+  }
+  ,
+  {
+    "recipeId": "1101",
+    "recipeName": "Potato Spirals in Air Fryer ",
+    "recipeDescShort": "This is a time unfortunately a lot of us are stuck at home due to coronavirus and not able to take kids out for dinners or having hard time entertaining kids. Why not teach kids some easy cooking with parental supervision?? Here’s a recipe to try which could turn out to be fun for them and at the same time have a delicious snack!<font color='blue'><b>more...</b></font>",
+    "recipeImage": "PotatoSpirals.jpg",
+    "keyWords": "#Veg#", 
+    "relatedRecipes" : "Cutlet, EggPuffs, Air Fryer Murukku/Chakli"
+  }
+  ,
+  {
+    "recipeId": "1102",
+    "recipeName": "Coriander Chili Garlic Nan ",
+    "recipeDescShort": "As we continue to go through the unfortunate COVID 19 isolation and social distancing, people are getting very creative with lots of different stuff especially with cooking. Restaurants remain closed but this doesn’t mean you cannot make your own restaurant food. Try this easy recipe for some homemade Coriander Chili Garlic Nan!!<font color='blue'><b>more...</b></font>",
+    "recipeImage": "CorianderChiliGarlicNan.jpg",
+    "keyWords": "#Veg#", 
+    "relatedRecipes" : "AvocadoRoti, ChanaMasala, ButterChicken"
+  }
+  ,
+  {
+    "recipeId": "1103",
+    "recipeName": "Vattayappam ",
+    "recipeDescShort": "Vattayappam is a soft spongy steamed rice cake made of a fermented batter with rice, yeast, coconut and few other ingredients. It is mildly sweetened. Try this easy recipe which will turn out to be a hit among kids and adults alike <font color='blue'><b>more...</b></font>",
+    "recipeImage": "Vattayappam.jpg",
+    "keyWords": "#Veg#", 
+    "relatedRecipes" : "AppamEggCurry, BeefVindaloo"
+  }
+  ,
+  {
+    "recipeId": "1104",
+    "recipeName": "Home Made Bread ",
+    "recipeDescShort": "As lockdowns continue and grocery shopping which previously was a mundane task has now turned into a nerve-wracking ordeal, people have started making their own Starbucks style lattes and baking their own breads!  Well here is a simple recipe to bake a bread. Try it and you wouldn’t want to buy bread from stores even when the lockdown is done! <font color='blue'><b>more...</b></font>",
+    "recipeImage": "HomeMadeBread.jpg",
+    "keyWords": "#Veg#", 
+    "relatedRecipes" : "BananaBread"
+  }
+  ,
+  {
+    "recipeId": "1105",
+    "recipeName": "Punjabi Kadhi ",
+    "recipeDescShort": "Kadhi is a dish with gravy made of yoghurt and chickpea flour and contains fried fritters in it. It is tangy and savory. Typically, a very good combination with rice but can be eaten with roti too.<font color='blue'><b>more...</b></font>",
+    "recipeImage": "PunjabiKadhi.jpg",
+    "keyWords": "#Veg#", 
+    "relatedRecipes" : "OnionParathaMain"
+  }
+  ,
+  {
+    "recipeId": "1106",
+    "recipeName": "Orange Cake ",
+    "recipeDescShort": "Many of us might be finding we're eating more than perhaps we normally would. You are not alone if you are encountering situations where everybody in your house is hungry all the time and they are all rummaging through kitchen shelves and pantries for snacking! During these current lockdown days it is handy to have easy snack recipes. Here is an easy recipe to bake an orange cake which you can make in a jiffy!</p><font color='blue'><b>more...</b></font>",
+    "recipeImage": "OrangeCake.jpg",
+    "keyWords": "#Veg#", 
+    "relatedRecipes" : "Cheesecake, MangoCheesecake"
+  }
+  ,
+  {
+    "recipeId": "1107",
+    "recipeName": "Air Fryer Potatoes ",
+    "recipeDescShort": "Try this easy potato recipe in air fryer. Pany fry method is also included in the recipe</p><font color='blue'><b>more...</b></font>",
+    "recipeImage": "AirFryerPotatoes.jpg",
+    "keyWords": "#Veg#", 
+    "relatedRecipes" : "PotatoSpirals"
+  }
+  ,
+  {
+    "recipeId": "1108",
+    "recipeName": "Cheese Ravioli ",
+    "recipeDescShort": "If your family members are pasta lovers here is an easy dinner recipe for three cheese Ravioli with meat sauce. Ground turkey is used here which can be substituted with ground beef or ground chicken.</p><font color='blue'><b>more...</b></font>",
+    "recipeImage": "Ravioli.jpg",
+    "keyWords": "#non-Veg#", 
+    "relatedRecipes" : "ChickenPastaSoup, PastaSalad"
+  }
+  
+  ,
+  {
+    "recipeId": "1109",
+    "recipeName": "Chicken Quesadilla ",
+    "recipeDescShort": "In a mood for Mexican today? Try this simple and filling recipe in which you have the carb, the protein and the veges all in one! This is also a very good nutritious lunch box meal for kids or a picnic meal too! For veg option simply skip the chicken!</p><font color='blue'><b>more...</b></font>",
+    "recipeImage": "Quesadilla.jpg",
+    "keyWords": "#non-Veg#", 
+    "relatedRecipes" : "AvocadoRoti, ChickenFajita"
+  }
+  ,
+  {
+    "recipeId": "1110",
+    "recipeName": "Air Fryer Vege Pizza  ",
+    "recipeDescShort": "This Air Fryer pizza is a game changer because of the ease to handle air fryers as opposed to conventional ovens! Try this yummy recipe and find out why it is better than takeouts! Have fun with square pizza!!</p><font color='blue'><b>more...</b></font>",
+    "recipeImage": "AirFryerPizza.jpg",
+    "keyWords": "#Veg#", 
+    "relatedRecipes" : "HomemadePizza"
+  }
+  ,
+  {
+    "recipeId": "1111",
+    "recipeName": "Strawberry Mojito",
+    "recipeDescShort": "Try this easy summery cocktail to make your evenings more relaxed. It's the perfect drink for a hot summer day!</p><font color='blue'><b>more...</b></font>",
+    "recipeImage": "StrawberryMojito.jpg",
+    "keyWords": "#Drinks#", 
+    "relatedRecipes" : "Sangria, Margarita"
+  }
+  ,
+  {
+    "recipeId": "1112",
+    "recipeName": "Air Fried Battered Fish",
+    "recipeDescShort": "Are you a seafood lover and craving for batter fried fish?  You want to avoid deep frying? this air fryer recipe is for you! Cod fish is used here. Any other firm fish can be used. To make it spicy and flavorful a lot of Indian spices have been added in the batter. </p><font color='blue'><b>more...</b></font>",
+    "recipeImage": "AirfriedBatteredFish.jpg",
+    "keyWords": "#non-veg#", 
+    "relatedRecipes" : "FishCurry"
+  }
+  ,
+  {
+    "recipeId": "1113",
+    "recipeName": "Burger Pizza",
+    "recipeDescShort": "Do you want an easy snack for kids or adults in your home when they are bored? Try this burger pizza recipe which you or your kids can put together in no time. This can also be made as a light dinner with some veges on the side for a complete meal. </p><font color='blue'><b>more...</b></font>",
+    "recipeImage": "BurgerPizza.jpg",
+    "keyWords": "#veg#", 
+    "relatedRecipes" : "AirFryerPizza, HomemadePizza"
+  }
+  ,
+  {
+    "recipeId": "1114",
+    "recipeName": "Moussaka",
+    "recipeDescShort": "Moussaka is an eggplant or potato-based baked dish, often including ground meat. Few years back I was at an office lunch at an Italian restaurant. Not all the dishes on the menu were familiar to me. I simply didn’t want to eat pizza or pasta and wanted more of a comfort food. Because of a beautiful picture the item Moussaka caught my attention  </p><font color='blue'><b>more...</b></font>",
+    "recipeImage": "Moussaka.jpg",
+    "keyWords": "#non-veg#", 
+    "relatedRecipes" : "Frittata"
+  }
+  ,
+  {
+    "recipeId": "1115",
+    "recipeName": "Air Fryer Roasted Asparagus & Potatoes",
+    "recipeDescShort": "I have tried different ways of cooking asparagus and always found it very tasteless. So this time I tried to see if I can cook it differently to make it tastier and ended up with this recipe and it turned out to be yummy! So, try this spicy tangy flavored veggie dish and impress your family! Pan fry method is also included</p><font color='blue'><b>more...</b></font>",
+    "recipeImage": "AirFryerRoastedAsparagusPotatoes.jpg",
+    "keyWords": "#veg#", 
+    "relatedRecipes" : "BakedSweetPotatoWedges"
+  },
+  {
+    "recipeId": "1116",
+    "recipeName": "Banana Chips",
+    "recipeDescShort": "It is Onam season and while everybody is getting ready with the feast here is one important item in the menu – Banana chips. Most of us usually get it from stores but the pandemic has taught us very well on being self-reliant as much as possible. So, here’s the recipe for home -made Banana chips savoury and sweet variety! Happy Onam!</p><font color='blue'><b>more...</b></font>",
+    "recipeImage": "BananaChips.jpg",
+    "keyWords": "#veg#", 
+    "relatedRecipes" : "AirFryerPotatoes"
+  }
+  ,
+  {
+    "recipeId": "1117",
+    "recipeName": "Home Made Bagels",
+    "recipeDescShort": "Recently, people have been raving on the internet and facebook communities about how easy it is to make bagels in air fryer and I jumped on the bandwagon too! Here is how everybody is making the bagels. Try it, it is very easy, and you will never buy bagels from stores again! Conventional oven method is included too!</p><font color='blue'><b>more...</b></font>",
+    "recipeImage": "HomeMadeBagels.jpg",
+    "keyWords": "#veg#", 
+    "relatedRecipes" : "HomeMadeBread"
+  }
+  ,
+  {
+    "recipeId": "1118",
+    "recipeName": "Summer Salads",
+    "recipeDescShort": "Summer is almost over in this part of the world where I am living. If you are watching your carb intake and want to make a healthy habit of eating salads for dinner with the exception of weekends, here are four types of summer salads! Try it out! It is quite filling but at the same time light on your tummy!</p><font color='blue'><b>more...</b></font>",
+    "recipeImage": "SummerSalads.jpg",
+    "keyWords": "#veg#", 
+    "relatedRecipes" : "AvocadoOrangeSalad, GrilledChickenSalad, MungbeanSalad, PastaSalad"
+  }
+  ,
+  {
+    "recipeId": "1119",
+    "recipeName": "Apple Pie",
+    "recipeDescShort": "Visited an apple orchard few days back. It was a fun experience but ended up with lot of apples sitting on the countertop. They were delicious apples right off the farm, so other than taking apple orchard pictures and posting on social media it would be an injustice if I did not make at least an apple pie! So here goes!</br> There are lot of different recipes of apple pie, different flavors of pie filling. Lot of people do make their own pie crusts, but I did not want to gamble with that because if the crust does not turn out good then the whole thing gets ruined. So, I have used a store-bought crust. This is a very simple recipe with few ingredients, and it came out perfect!</p><font color='blue'><b>more...</b></font>",
+    "recipeImage": "ApplePie.jpg",
+    "keyWords": "#veg#", 
+    "relatedRecipes" : "EggPuffs, SweetFritters"
+  }
+  ,
+  {
+    "recipeId": "1120",
+    "recipeName": "Oats Idli",
+    "recipeDescShort": "If you are trying to cut down on rice consumption for health reasons, here is a healthy South Indian breakfast idea, Oats  Idli. Rice is being substituted here with oats and there is no compromise on taste at all, try it out!!</p><font color='blue'><b>more...</b></font>",
+    "recipeImage": "OatsIdli.jpg",
+    "keyWords": "#veg#", 
+    "relatedRecipes" : "Sambar, DosawithSambar, SambarPowder, SmallOnionSambar"
+  }
+  ,
+  {
+    "recipeId": "1121",
+    "recipeName": "Aloo Paratha",
+    "recipeDescShort": "Aloo Paratha is whole wheat flatbread with spicy mashed potato stuffing. Aloo means potatoes and paratha is flatbread. It is a North Indian specialty. It is a yummy meal that can be eaten any time, at breakfast, lunch or dinner! Excellent for packing lunch boxes too! </p><font color='blue'><b>more...</b></font>",
+    "recipeImage": "AlooParatha.jpg",
+    "keyWords": "#veg#", 
+    "relatedRecipes" : "OnionParatha, MethiParatha, CorianderChiliGarlicNan"
+  }
+  ,
+  {
+    "recipeId": "1122",
+    "recipeName": "Air Fried Eggplants",
+    "recipeDescShort": " Don’t we all love fried foods? Frying in oil makes the food tasty but Air Frying is almost as good and there is no compromise on health! Try this easy and healthy air fryer recipe of eggplants which pairs well with brown rice  and dal (lentils) spritzed with a dash of ghee!!</p><font color='blue'><b>more...</b></font>",
+    "recipeImage": "AirFriedEggplants.jpg",
+    "keyWords": "#veg#", 
+    "relatedRecipes" : "AirFryerPotatoes, PotatoSpirals"
+  }
+]
+  

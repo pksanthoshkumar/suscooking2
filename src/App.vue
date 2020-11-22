@@ -12,7 +12,6 @@
 <script>
 import ToolBar from "./components/ToolBar.vue"; 
 import Recipes from "./components/Recipes.vue";
-import axios from 'axios';
 
 export default {
   name: 'App',
@@ -28,11 +27,6 @@ export default {
       filterDir: 'asc'
     }; //return
   }, //data
-  created: function() {
-    axios.get("recipes.json").then(info => {
-      this.theRecipes = info.data;
-    }); //getJSON
-  }, //created
 
    methods : {
     searchRecipe: function(terms) {

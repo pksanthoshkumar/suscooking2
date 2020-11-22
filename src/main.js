@@ -1,4 +1,3 @@
-import './assets/recipes.json';
 import './assets/sus-adds.json';
 import './assets/style.css'
 import './assets/sus-style.css'

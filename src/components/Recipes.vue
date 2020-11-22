@@ -221,8 +221,6 @@
                             <div dir="auto">&nbsp;</div>
                             </div>
 
-                            <!--div dir="auto">&nbsp;<a href="https://www.amazon.com/dp/B08L1XNVPZ/ref=rdr_kindle_ext_tmb"><h2 dir="auto"><img src="Amazon.png" alt="" /></h2></a></div-->
-
 
                         <!-- Your Recipe content ends  here  -->
                                     <table width="25%">
